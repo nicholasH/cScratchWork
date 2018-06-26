@@ -5,9 +5,8 @@
 
 char* to_alternating_case(const char *s) {
   for (int i = 0; i < strlen(s); i++){
-    printf("%s\n",s );
+      printf("%c\n",s[i] -39);
 
-    printf("%s\n",s[6] );
 
 
   }
@@ -19,7 +18,7 @@ char* to_alternating_case(const char *s) {
 
 int main()
 {
-   to_alternating_case("the man");
+   to_alternating_case("a");
 
 
    return 0;
